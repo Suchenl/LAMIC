@@ -3,14 +3,14 @@
 
 This repo contains minimal inference code to run layout-aware multi-image composition & editing with our LAMIC based on Flux.1 Kontext-dev open-source models.
 
-## Example of LAMIC (given 4 reference images and explicit layout design)
+## An example of LAMIC ( 4 reference images with explicit layout design )
 | ![example_forest](assets/example_forest.jpg) | ![example_man](assets/example_man.jpg) | ![example_sea_turtle](assets/example_sea_turtle.jpg) | ![example_sea_turtle](assets/example_jellyfish.jpg) |
 |--------------------------------|--------------------------------|--------------------------------|--------------------------------|
 
 | ![example](assets/example.png) | ![example_bboxed](assets/example_bboxed.png) |
 |--------------------------------|----------------------------------------------|
 
-## Local installation
+## Local install
 ### Install LAMIC
 ```bash
 git clone https://github.com/Suchenl/LAMIC.git
@@ -28,6 +28,28 @@ For example, using modelscope
 ```bash
 modelscope download --model black-forest-labs/FLUX.1-Kontext-dev --local_dir ./your_dir
 ```
+
+## Usage
+### Run example
+```bash
+python batch_run.py --input_path "./example_inputs.json" --num_img_per_sample 4 --concat_per_sample True --flux_kontext_transformer_path "your_local_kontext_transformer_path" --flux_path "your_local_flux_path (flux or flux kontext, both are acceptable)"
+```
+Of course, you can also refer to example_input to quickly build your own input. The number of reference images is flexible—just try it!
+
+## More refined control (modulate your custom inputs)
+### 1. Use your predefined masks for layout control instead of margin boxes
+Replace the key "bbox" with "mask_path". 
+
+For example, "mask_path": "your_mask_path (image format)"
+
+### 2. Enhance the impact of one or more of your reference images
+If you find that in some cases, the reference performance of some reference images is insufficient, you can try increasing the value of "to_area", which means the area to which the original reference image is scaled in proportion to its length and width. Since LAMIC is based on the attention between tokens, increasing the area of some reference images can increase the number of tokens, thereby enhancing the reference performance of the generated image. Vice versa.
+
+### 3. Reduce the impact of one or more of your reference images on other reference images
+In addition to the second method, you can also consider adding the key of "de-overlap" to other reference images, to eliminate the influence of some reference images on other reference images (when the target areas of the two reference images overlap)
+
+For example, "ref_img_4": {"de-overlap": [1, 2]}. This means eliminating the influence of reference image 4 on the overlapping area with reference image 1, and eliminating the influence of reference image 4 on the overlapping area with reference image 2.
+
 
 ## 🚀 Updates
 - **[2025.07]** This work is now open source, and you are free to use it!
