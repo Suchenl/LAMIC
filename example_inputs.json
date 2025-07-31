@@ -1,0 +1,54 @@
+{
+    "sample_000": {
+        "prompt": "A man is holding a sea turtle, and a jellyfish is floating nearby in a forest.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/18_sea turtle.jpg",
+            "SAD": {
+                "id": "a sea turtle",
+                "desc": "keep appearance, held by a man"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.0,
+                0.5,
+                1.0,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/animal/16_jellyfish.jpg",
+            "SAD": {
+                "id": "a jellyfish",
+                "desc": "keep appearance, floating nearby"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.6,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/human/05_man.jpg",
+            "SAD": {
+                "id": "a man",
+                "desc": "keep appearance, sitting nearby"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.6,
+                1.0
+            ]
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/06_forest.jpg",
+            "SAD": {
+                "id": "a forest",
+                "desc": "keep scene"
+            }
+        }
+    }
+}
