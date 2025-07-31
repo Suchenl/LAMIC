@@ -4,7 +4,7 @@
 This repo contains minimal inference code to run layout-aware multi-image composition & editing with our LAMIC based on Flux.1 Kontext-dev open-source models.
 
 ## An example of LAMIC ( 4 reference images with explicit layout design )
-| ![example_forest](assets/example_forest.jpg) | ![example_man](assets/example_man.jpg) | ![example_sea_turtle](assets/example_sea_turtle.jpg) | ![example_sea_turtle](assets/example_jellyfish.jpg) |
+| ![example_forest](assets/example_forest_withedge.jpg) | ![example_man](assets/example_man_withedge.jpg) | ![example_sea_turtle](assets/example_sea_turtle_withedge.jpg) | ![example_sea_turtle](assets/example_jellyfish_withedge.jpg) |
 |--------------------------------|--------------------------------|--------------------------------|--------------------------------|
 
 | ![example](assets/example.png) | ![example_bboxed](assets/example_bboxed.png) |
