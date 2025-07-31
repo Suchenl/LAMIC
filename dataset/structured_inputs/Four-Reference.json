@@ -1,0 +1,862 @@
+{
+    "sample_000": {
+        "prompt": "A man is holding a sea turtle, and a jellyfish is floating nearby in a forest.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/18_sea turtle.jpg",
+            "SAD": {
+                "id": "a sea turtle",
+                "desc": "keep appearance, held by a man"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.0,
+                0.5,
+                1.0,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/animal/16_jellyfish.jpg",
+            "SAD": {
+                "id": "a jellyfish",
+                "desc": "keep appearance, floating nearby"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.6,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/human/05_man.jpg",
+            "SAD": {
+                "id": "a man",
+                "desc": "keep appearance, sitting nearby"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.6,
+                1.0
+            ]
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/06_forest.jpg",
+            "SAD": {
+                "id": "a forest",
+                "desc": "keep scene"
+            }
+        }
+    },
+    "sample_001": {
+        "prompt": "A boy wearing a t-shirt and shorts is playing with a teddy bear, standing.",
+        "CEI": "A boy wearing a t-shirt and shorts is playing with a teddy bear, standing.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/human/00_boy.jpg",
+            "SAD": {
+                "id": "a boy",
+                "desc": "keep appearance, front view, front face, wearing a t-shirt and shorts, playing with a teddy bear, standing"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/clothes/midwearing/05_t-shirt.jpg",
+            "SAD": {
+                "id": "a t-shirt",
+                "desc": "keep appearance"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.0,
+                0.2,
+                1.0,
+                0.7
+            ]
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/clothes/downwearing/01_shorts.jpg",
+            "SAD": {
+                "id": "shorts",
+                "desc": "keep appearance"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.0,
+                0.7,
+                1.0,
+                1.0
+            ]
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/object/13_teddy bear.jpg",
+            "SAD": {
+                "id": "a teddy bear",
+                "desc": "keep appearance"
+            },
+            "to_area": 262144
+        }
+    },
+    "sample_002": {
+        "prompt": "A man is holding a beer can in left hand, holding a ring in right hand in the same scene.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/human/18_man.jpg",
+            "SAD": {
+                "id": "a man",
+                "desc": "keep appearance, holding a beer can in left hand, holding a ring in right hand"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/04_beer can.jpg",
+            "SAD": {
+                "id": "a beer can",
+                "desc": "keep appearance"
+            },
+            "to_area": 262144
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/object/16_ring.jpg",
+            "SAD": {
+                "id": "a ring",
+                "desc": "keep appearance"
+            },
+            "to_area": 262144
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/13_scene.jpg",
+            "SAD": {
+                "id": "a scene",
+                "desc": "keep scene"
+            }
+        }
+    },
+    "sample_003": {
+        "prompt": "A man is standing on the beach, carrying a leather handbag, and a parrot is standing on the man's head.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/41_parrot.jpg",
+            "SAD": {
+                "id": "a parrot",
+                "desc": "keep appearance, standing on the man's head"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.3,
+                0.0,
+                0.7,
+                0.35
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/human/11_man.jpg",
+            "SAD": {
+                "id": "a man",
+                "desc": "keep appearance, standing on the beach, carrying a leather handbag"
+            },
+            "bbox": [
+                0.25,
+                0.2,
+                0.75,
+                1.0
+            ]
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/object/57_leather handbag.jpg",
+            "SAD": {
+                "id": "a leather handbag",
+                "desc": "keep appearance"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.25,
+                0.5,
+                0.75,
+                1.0
+            ]
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/04_beach.jpg",
+            "SAD": {
+                "id": "a beach",
+                "desc": "keep scene"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ],
+            "de-overlap": [
+                1
+            ]
+        }
+    },
+    "sample_004": {
+        "prompt": "A puppy is sitting in a forest, and a man is standing in the forest, wearing headphones",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/42_puppy.jpg",
+            "SAD": {
+                "id": "puppy",
+                "desc": "keep appearance, sitting in a forest"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.1,
+                0.5,
+                0.9,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/55_headphones.jpg",
+            "SAD": {
+                "id": "headphones",
+                "desc": "keep appearance"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.3,
+                0.0,
+                0.7,
+                0.4
+            ]
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/human/17_man.jpg",
+            "SAD": {
+                "id": "a man",
+                "desc": "keep appearance, full body, standing in the forest, wearing headphones"
+            },
+            "bbox": [
+                0.3,
+                0.0,
+                0.7,
+                1.0
+            ]
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/06_forest.jpg",
+            "SAD": {
+                "id": "forest",
+                "desc": "keep scene"
+            }
+        }
+    },
+    "sample_005": {
+        "prompt": "An anime man is standing in an anime park with a bouquet of flowers and a vintage camera.",
+        "CEI": "An anime man is standing in an anime park with a bouquet of flowers and a vintage camera.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/73_anime man.jpg",
+            "SAD": {
+                "id": "anime man",
+                "desc": "keep appearance, standing in an anime park, with a bouquet of flowers and a vintage camera"
+            },
+            "to_area": 262144
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/33_bouquet of flowers.jpg",
+            "SAD": {
+                "id": "bouquet of flowers",
+                "desc": "keep appearance"
+            },
+            "to_area": 262144
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/object/23_vintage camera.jpg",
+            "SAD": {
+                "id": "vintage camera",
+                "desc": "keep appearance"
+            },
+            "to_area": 262144
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/01_anime park.jpg",
+            "SAD": {
+                "id": "anime park",
+                "desc": "keep scene"
+            }
+        }
+    },
+    "sample_006": {
+        "prompt": "A teddy bear is sitting on a maple leaf, with a cactus near the teddy bear, in a desert",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/13_teddy bear.jpg",
+            "SAD": {
+                "id": "a teddy bear",
+                "desc": "keep appearance, sitting on a maple leaf, in a desert"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.0,
+                0.3,
+                0.65,
+                0.8
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/29_maple leaf.jpg",
+            "SAD": {
+                "id": "a maple leaf",
+                "desc": "keep appearance, change to a huge maple leaf, in a desert"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.0,
+                0.6,
+                0.7,
+                1.0
+            ],
+            "de-overlap": [
+                1
+            ]
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/object/53_cactus.jpg",
+            "SAD": {
+                "id": "a cactus",
+                "desc": "keep appearance, in a desert"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.65,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/05_desert.jpg",
+            "SAD": {
+                "id": "desert",
+                "desc": "keep scene"
+            },
+            "de-overlap": [
+                3
+            ]
+        }
+    },
+    "sample_007": {
+        "prompt": "An anime girl is flying in outer space with an egg floating nearby and a UFO in the distance.",
+        "CEI": "An anime girl is flying in outer space with an egg floating nearby and a UFO in the distance.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/70_anime girl.jpg",
+            "SAD": {
+                "id": "an anime girl",
+                "desc": "keep appearance, flying in outer space"
+            },
+            "to_area": 589824,
+            "bbox": [
+                0.3,
+                0.3,
+                0.7,
+                0.8
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/48_egg.jpg",
+            "SAD": {
+                "id": "an egg",
+                "desc": "keep appearance, floating in outer space"
+            },
+            "to_area": 589824,
+            "bbox": [
+                0.1,
+                0.1,
+                0.4,
+                0.4
+            ]
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/object/47_UFO.jpg",
+            "SAD": {
+                "id": "a UFO",
+                "desc": "keep appearance, floating in outer space"
+            },
+            "to_area": 589824,
+            "bbox": [
+                0.5,
+                0.0,
+                0.9,
+                0.4
+            ]
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/08_outer space.jpg",
+            "SAD": {
+                "id": "a outer space",
+                "desc": "keep the scene"
+            },
+            "to_area": 810000
+        }
+    },
+    "sample_008": {
+        "prompt": "A polar bear is walking on a mountain and grass while a clock tower stands in the distance with a hot air balloon floating above, and a stop sign is placed at the left side of the polar bear.",
+        "CEI": "A polar bear is walking on a mountain and grass while a clock tower stands in the distance with a hot air balloon floating above, and a stop sign is placed at the left side of the polar bear.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/13_polar bear.jpg",
+            "SAD": {
+                "id": "a polar bear",
+                "desc": "keep appearance, walking on a mountain, with a clock tower in the distance"
+            },
+            "to_area": 262144
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/51_stop sign.jpg",
+            "SAD": {
+                "id": "a stop sign",
+                "desc": "keep appearance, at the left side of the polar bear"
+            },
+            "to_area": 262144
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/object/09_hot air balloon.jpg",
+            "SAD": {
+                "id": "hot air balloon",
+                "desc": "keep appearance, floating above the polar bear"
+            },
+            "to_area": 262144
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/07_mountain and grass.jpg",
+            "SAD": {
+                "id": "mountain and grass",
+                "desc": "keep scene"
+            }
+        }
+    },
+    "sample_009": {
+        "prompt": "A little girl is standing on a beach, holding a teapot at the left hand and a flamingo float at the right hand.",
+        "CEI": "A little girl is standing on a beach, holding a teapot at the left hand and a flamingo float at the right hand.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/human/04_little girl.jpg",
+            "SAD": {
+                "id": "a little girl",
+                "desc": "keep appearance, standing on the beach, holding a teapot at the left hand and a flamingo float at the right hand"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/52_teapot.jpg",
+            "SAD": {
+                "id": "a teapot",
+                "desc": "keep appearance, at the left hand of the little girl"
+            },
+            "to_area": 262144
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/object/10_flamingo float.jpg",
+            "SAD": {
+                "id": "a flamingo float",
+                "desc": "keep appearance, at the right hand of the little girl"
+            },
+            "to_area": 262144
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/04_beach.jpg",
+            "SAD": {
+                "id": "a beach",
+                "desc": "keep scene"
+            }
+        }
+    },
+    "sample_010": {
+        "prompt": "A man is wearing a hat and playing guitar while sitting on a complete boat in the middle of a lake.",
+        "CEI": "A man is wearing a hat and playing guitar while sitting on a complete boat in the middle of a lake.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/human/05_man.jpg",
+            "SAD": {
+                "id": "a man",
+                "desc": "keep appearance, playing guitar, sitting on a boat, in the middle of a lake"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/39_guitar.jpg",
+            "SAD": {
+                "id": "a guitar",
+                "desc": "keep appearance"
+            },
+            "to_area": 262144
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/clothes/upwearing/04_hat.jpg",
+            "SAD": {
+                "id": "a hat",
+                "desc": "keep appearance, on the head of the man"
+            },
+            "to_area": 262144
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/14_lake.jpg",
+            "SAD": {
+                "id": "a lake",
+                "desc": "keep scene"
+            }
+        }
+    },
+    "sample_011": {
+        "prompt": "A woman is eating a donut while sitting on a chair with a vase of flowers on the ground in the room.",
+        "CEI": "A woman is eating a donut while sitting on a chair with a vase of flowers on the ground in the room.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/human/03_woman.jpg",
+            "SAD": {
+                "id": "a woman",
+                "desc": "keep appearance, sitting on a chair, eating a donut"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/38_donut.jpg",
+            "SAD": {
+                "id": "a donut",
+                "desc": "keep appearance, being eaten by the woman"
+            },
+            "to_area": 262144
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/object/30_vase.jpg",
+            "SAD": {
+                "id": "vase",
+                "desc": "keep appearance, with flowers, on the ground"
+            },
+            "to_area": 262144
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/16_room.jpg",
+            "SAD": {
+                "id": "a room",
+                "desc": "keep scene"
+            }
+        }
+    },
+    "sample_012": {
+        "prompt": "A stork is flying in the sky, and a man with front view, front face, is riding a bicycle in a scene.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/01_stork.jpg",
+            "SAD": {
+                "id": "a stork",
+                "desc": "keep appearance, flying in the sky"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                0.4
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/17_bicycle.jpg",
+            "SAD": {
+                "id": "a bicycle",
+                "desc": "keep the bicycle's appearance"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.0,
+                0.6,
+                1.0,
+                1.0
+            ]
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/human/08_man.jpg",
+            "SAD": {
+                "id": "a man",
+                "desc": "keep the man's appearance, riding the bicycle, front view, front face, with a stork flying in the sky"
+            }
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/13_scene.jpg",
+            "SAD": {
+                "id": "a scene",
+                "desc": "keep scene"
+            }
+        }
+    },
+    "sample_013": {
+        "prompt": "A little girl wearing a dress is playing with a kitten in the room.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/human/04_little girl.jpg",
+            "SAD": {
+                "id": "a little girl",
+                "desc": "keep appearance, dressing the dress, playing with a kitten in the room"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/animal/00_kitten.jpg",
+            "SAD": {
+                "id": "a kitten",
+                "desc": "keep appearance, playing with a little girl"
+            },
+            "to_area": 262144
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/clothes/wholewearing/00_dress.jpg",
+            "SAD": {
+                "id": "a dress",
+                "desc": "keep appearance, dressed on the little girl"
+            },
+            "to_area": 262144
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/15_room.jpg",
+            "SAD": {
+                "id": "a room",
+                "desc": "keep scene"
+            }
+        }
+    },
+    "sample_014": {
+        "prompt": "A panda munches bamboo, playing with a raccoon, on a lawn. A lion observes them.",
+        "CEI": "A panda munches bamboo, playing with a raccoon, on a lawn. A lion observes them.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/33_panda.jpg",
+            "SAD": {
+                "id": "panda",
+                "desc": "keep appearance, munches bamboo, playing with a raccoon, on a lawn"
+            },
+            "to_area": 262144
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/animal/23_lion.jpg",
+            "SAD": {
+                "id": "a lion",
+                "desc": "keep appearance, on a lawn"
+            },
+            "to_area": 262144
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/animal/08_raccoon.jpg",
+            "SAD": {
+                "id": "a raccoon",
+                "desc": "keep appearance, playing with a panda, on a lawn"
+            },
+            "to_area": 262144
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/18_lawn.jpg",
+            "SAD": {
+                "id": "a lawn",
+                "desc": "keep scene"
+            }
+        }
+    },
+    "sample_015": {
+        "prompt": "An eagle soars in the sky above a grassy field where a horse is grazing, and a French bulldog is running around nearby in a mountain and grass setting.",
+        "CEI": "An eagle soars in the sky above a grassy field where a horse is grazing, and a French bulldog is running around nearby in a mountain and grass setting.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/14_eagle.jpg",
+            "SAD": {
+                "id": "eagle",
+                "desc": "keep appearance, soars in the sky, above a grassy field"
+            },
+            "to_area": 262144
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/animal/03_horse.jpg",
+            "SAD": {
+                "id": "horse",
+                "desc": "keep appearance, grazing in a grassy field"
+            },
+            "to_area": 262144
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/animal/43_French bulldog.jpg",
+            "SAD": {
+                "id": "French bulldog",
+                "desc": "keep appearance, running around nearby"
+            },
+            "to_area": 262144
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/07_mountain and grass.jpg",
+            "SAD": {
+                "id": "mountain and grass",
+                "desc": "keep scene"
+            }
+        }
+    },
+    "sample_016": {
+        "prompt": "A vintage television is on, and there's a cocktail and a donut on the table beside it in a white desert setting.",
+        "CEI": "A vintage television is on, and there's a cocktail and a donut on the table beside it in a white desert setting.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/63_cocktail.jpg",
+            "SAD": {
+                "id": "cocktail",
+                "desc": "keep appearance, on the table beside a vintage television"
+            },
+            "to_area": 262144
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/38_donut.jpg",
+            "SAD": {
+                "id": "donut",
+                "desc": "keep appearance, on the table beside a vintage television"
+            },
+            "to_area": 262144
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/object/49_vintage television.jpg",
+            "SAD": {
+                "id": "vintage television",
+                "desc": "keep appearance, on"
+            },
+            "to_area": 262144
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/11_white desert.jpg",
+            "SAD": {
+                "id": "white desert",
+                "desc": "keep scene"
+            }
+        }
+    },
+    "sample_017": {
+        "prompt": "A robot is holding a backpack at the right hand and standing on the anime beach, next to a pineapple.",
+        "CEI": "A robot is holding a backpack at the right hand and standing on the beach, next to a pineapple.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/43_pineapple.jpg",
+            "SAD": {
+                "id": "a pineapple",
+                "desc": "keep appearance, standing on the beach"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.0,
+                0.3,
+                0.4,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/64_robot.jpg",
+            "SAD": {
+                "id": "a robot",
+                "desc": "keep appearance, holding a backpack in the right hand, standing on the beach"
+            },
+            "to_area": 300000,
+            "bbox": [
+                0.3,
+                0.2,
+                0.8,
+                1.0
+            ]
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/object/28_backpack.jpg",
+            "SAD": {
+                "id": "a backpack",
+                "desc": "keep appearance, being held by the robot's hand"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.3,
+                0.55,
+                1.0,
+                1.0
+            ]
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/19_anime beach.jpg",
+            "SAD": {
+                "id": "an anime beach",
+                "desc": "keep scene"
+            },
+            "de-overlap": [
+                2
+            ]
+        }
+    },
+    "sample_018": {
+        "prompt": "An anime girl is sitting, holding a mug, next to a piggy bank, in a volcano.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/27_mug.jpg",
+            "SAD": {
+                "id": "a mug",
+                "desc": "keep appearance, held by an anime girl"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/66_anime girl.jpg",
+            "SAD": {
+                "id": "an anime girl",
+                "desc": "keep appearance, sitting, holding a mug, next to the piggy bank"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.0,
+                0.0,
+                0.6,
+                1.0
+            ]
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/object/31_piggy bank.jpg",
+            "SAD": {
+                "id": "a piggy bank",
+                "desc": "keep appearance, next to the girl"
+            },
+            "to_area": 262144,
+            "bbox": [
+                0.0,
+                0.5,
+                1.0,
+                1.0
+            ]
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/09_volcano.jpg",
+            "SAD": {
+                "id": "a volcano",
+                "desc": "keep scene"
+            }
+        }
+    },
+    "sample_019": {
+        "prompt": "A UFO hovers in the sky while a pineapple lies on the ground nearby, and a vintage camera is placed beside the pineapple in a pink-purple desert.",
+        "CEI": "A UFO hovers in the sky while a pineapple lies on the ground nearby, and a vintage camera is placed beside the pineapple in a pink-purple desert.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/74_UFO.jpg",
+            "SAD": {
+                "id": "a UFO",
+                "desc": "keep appearance, hovers in the sky"
+            },
+            "to_area": 262144
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/43_pineapple.jpg",
+            "SAD": {
+                "id": "a pineapple",
+                "desc": "keep appearance, lies on the ground nearby"
+            },
+            "to_area": 262144
+        },
+        "ref_img_3": {
+            "image_path": "./dataset/images/object/23_vintage camera.jpg",
+            "SAD": {
+                "id": "a vintage camera",
+                "desc": "keep appearance, placed beside the pineapple"
+            },
+            "to_area": 262144
+        },
+        "ref_img_4": {
+            "image_path": "./dataset/images/scene/12_pink-purple desert.jpg",
+            "SAD": {
+                "id": "a pink-purple desert",
+                "desc": "keep scene"
+            }
+        }
+    }
+}

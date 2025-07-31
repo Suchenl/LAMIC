@@ -1,0 +1,12 @@
+activations==0.1.0
+diffusers==0.35.0.dev0
+embeddings==0.0.8
+normalization==0.4
+numpy==1.24.4
+torch==2.5.1
+torchao==0.11.0
+torchvision==0.20.1
+tqdm==4.66.2
+transformers==4.53.0
+pillow==11.0.0
+xformers

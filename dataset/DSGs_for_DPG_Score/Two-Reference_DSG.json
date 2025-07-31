@@ -1,0 +1,2481 @@
+{
+    "sample_000": {
+        "prompt": "A boy is playing with a Spider-Man.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - type",
+            "4": "action -"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a Spider - Man?",
+            "2": "Is there a boy?",
+            "3": "Is the Spider - Man in anime style?",
+            "4": "Is the Spider - Man playing with the boy?"
+        }
+    },
+    "sample_001": {
+        "prompt": "An old man meets a pixelated warrior.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - state",
+            "4": "attribute - state",
+            "5": "action -"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                2
+            ],
+            "5": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a man?",
+            "2": "Is there a warrior?",
+            "3": "Is the man old?",
+            "4": "Is the warrior pixelated?",
+            "5": "Is the man meeting the warrior?"
+        }
+    },
+    "sample_002": {
+        "prompt": "A man is using a hair dryer.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "action -"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a man?",
+            "2": "Is there a hair dryer?",
+            "3": "Is the man using a hair dryer?"
+        }
+    },
+    "sample_003": {
+        "prompt": "A boy is discovering a ring in the forest.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "attribute - state",
+            "5": "action -",
+            "6": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                1
+            ],
+            "5": [
+                1,
+                2
+            ],
+            "6": [
+                2,
+                3
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a boy?",
+            "2": "Is there a ring?",
+            "3": "Is there a forest?",
+            "4": "Is the boy curious?",
+            "5": "Did the boy discover the ring?",
+            "6": "Is the ring in the forest?"
+        }
+    },
+    "sample_004": {
+        "prompt": "A man is standing beside a steam locomotive.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "action -",
+            "4": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a man?",
+            "2": "Is there a steam locomotive?",
+            "3": "Is the man standing?",
+            "4": "Is the man beside the steam locomotive?"
+        }
+    },
+    "sample_005": {
+        "prompt": "A boy is standing next to a cactus.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - state",
+            "4": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a boy?",
+            "2": "Is there a cactus?",
+            "3": "Is the boy standing?",
+            "4": "Is the boy next to the cactus?"
+        }
+    },
+    "sample_006": {
+        "prompt": "A man is standing beside a man, having a conversation.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - state",
+            "4": "attribute - state",
+            "5": "relation - spatial",
+            "6": "action -"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                2
+            ],
+            "5": [
+                1,
+                2
+            ],
+            "6": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a man?",
+            "2": "Is there another man?",
+            "3": "Is the first man standing?",
+            "4": "Is the second man standing?",
+            "5": "Are the two men standing side by side?",
+            "6": "Are the two men having a conversation?"
+        }
+    },
+    "sample_007": {
+        "prompt": "A woman is playing with a dog.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "action -"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a woman?",
+            "2": "Is there a dog?",
+            "3": "Is the woman playing with the dog?"
+        }
+    },
+    "sample_008": {
+        "prompt": "A girl is playing with a corgi.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "action -"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a girl?",
+            "2": "Is there a corgi?",
+            "3": "Is the girl playing with the corgi?"
+        }
+    },
+    "sample_009": {
+        "prompt": "An elephant is carrying a backpack on its back.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - part",
+            "4": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                1,
+                2,
+                3
+            ]
+        },
+        "qid2question": {
+            "1": "Is there an elephant?",
+            "2": "Is there a backpack?",
+            "3": "Does the elephant have a back?",
+            "4": "Is the elephant carrying the backpack on its back?"
+        }
+    },
+    "sample_010": {
+        "prompt": "A deer is standing beside a vintage van.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - state",
+            "4": "attribute - type",
+            "5": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                2
+            ],
+            "5": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a deer?",
+            "2": "Is there a van?",
+            "3": "Is the deer standing?",
+            "4": "Is the van vintage?",
+            "5": "Is the deer beside the van?"
+        }
+    },
+    "sample_011": {
+        "prompt": "A cotton-top tamarin is sitting under a street lamp.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - type",
+            "4": "action -",
+            "5": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                1
+            ],
+            "5": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a tamarin?",
+            "2": "Is there a street lamp?",
+            "3": "Is the tamarin a cotton - top tamarin?",
+            "4": "Is the tamarin sitting?",
+            "5": "Is the tamarin under the street lamp?"
+        }
+    },
+    "sample_012": {
+        "prompt": "A white tiger is prowling silently in the moonlit jungle, staring at a watch.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "attribute - light source",
+            "5": "attribute - color",
+            "6": "action -",
+            "7": "attribute - state",
+            "8": "attribute - state",
+            "9": "relation - spatial",
+            "10": "action -"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                1
+            ],
+            "5": [
+                2
+            ],
+            "6": [
+                2
+            ],
+            "7": [
+                3
+            ],
+            "8": [
+                3
+            ],
+            "9": [
+                2,
+                3
+            ],
+            "10": [
+                2,
+                3
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a jungle?",
+            "2": "Is there a tiger?",
+            "3": "Is there a watch?",
+            "4": "Is the jungle lit by the moon?",
+            "5": "Is the tiger white?",
+            "6": "Is the tiger prowling silently?",
+            "7": "Is the watch old?",
+            "8": "Is the watch abandoned?",
+            "9": "Is the watch nearby the tiger?",
+            "10": "Is the tiger's eye catching the glint of the watch?"
+        }
+    },
+    "sample_013": {
+        "prompt": "A Corgi dog stands beside an anime samurai.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - type",
+            "4": "attribute - type",
+            "5": "attribute - state",
+            "6": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                2
+            ],
+            "5": [
+                1
+            ],
+            "6": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a Corgi dog?",
+            "2": "Is there an anime samurai?",
+            "3": "Is the dog a Corgi?",
+            "4": "Is the samurai an anime samurai?",
+            "5": "Is the Corgi dog standing?",
+            "6": "Is the Corgi dog beside the anime samurai?"
+        }
+    },
+    "sample_014": {
+        "prompt": "A grasshopper is standing beside a Poke Ball.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - state",
+            "4": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a grasshopper?",
+            "2": "Is there a Poke Ball?",
+            "3": "Is the grasshopper standing?",
+            "4": "Is the grasshopper next to the Poke Ball?"
+        }
+    },
+    "sample_015": {
+        "prompt": "A penguin is on a flamingo float.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "relation - spatial",
+            "5": "relation - spatial",
+            "6": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                1,
+                2
+            ],
+            "5": [
+                2,
+                3
+            ],
+            "6": [
+                1,
+                2,
+                3
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a penguin?",
+            "2": "Is there a flamingo float?",
+            "3": "Is there water?",
+            "4": "Is the penguin on the flamingo float?",
+            "5": "Is the flamingo float in the water?",
+            "6": "Is the penguin on the water via the flamingo float?"
+        }
+    },
+    "sample_016": {
+        "prompt": "A fox is standing under a street lamp.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - state",
+            "4": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a fox?",
+            "2": "Is there a street lamp?",
+            "3": "Is the fox standing?",
+            "4": "Is the fox under the street lamp?"
+        }
+    },
+    "sample_017": {
+        "prompt": "A llama is wearing a hat.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a llama?",
+            "2": "Is there a hat?",
+            "3": "Is the llama wearing a hat?"
+        }
+    },
+    "sample_018": {
+        "prompt": "A toucan is sitting in front of a vintage television.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - state",
+            "4": "relation - spatial",
+            "5": "attribute - state"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                2
+            ],
+            "4": [
+                1,
+                2
+            ],
+            "5": [
+                1
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a toucan?",
+            "2": "Is there a television?",
+            "3": "Is the television vintage?",
+            "4": "Is the toucan in front of the television?",
+            "5": "Is the toucan sitting?"
+        }
+    },
+    "sample_019": {
+        "prompt": "A panda is using a hair dryer.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "action -"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a panda?",
+            "2": "Is there a hair dryer?",
+            "3": "Is the panda using a hair dryer?"
+        }
+    },
+    "sample_020": {
+        "prompt": "A lizard is sitting on a motorcycle.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "action -",
+            "4": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a lizard?",
+            "2": "Is there a motorcycle?",
+            "3": "Is the lizard sitting?",
+            "4": "Is the lizard on the motorcycle?"
+        }
+    },
+    "sample_021": {
+        "prompt": "A cat is sitting beside a basketball shoe",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - type",
+            "4": "attribute - state",
+            "5": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                2
+            ],
+            "4": [
+                1
+            ],
+            "5": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a cat?",
+            "2": "Is there a shoe?",
+            "3": "Is the shoe a basketball shoe?",
+            "4": "Is the cat sitting?",
+            "5": "Is the cat beside the shoe?"
+        }
+    },
+    "sample_022": {
+        "prompt": "A jellyfish is floating near a tree on an otherworldly beach.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "action -",
+            "5": "relation - spatial",
+            "6": "relation - spatial",
+            "7": "relation - spatial",
+            "8": "attribute - state"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                1
+            ],
+            "5": [
+                1,
+                2
+            ],
+            "6": [
+                1,
+                3
+            ],
+            "7": [
+                2,
+                3
+            ],
+            "8": [
+                3
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a jellyfish?",
+            "2": "Is there a tree?",
+            "3": "Is there a beach?",
+            "4": "Is the jellyfish floating?",
+            "5": "Is the jellyfish near the tree?",
+            "6": "Is the jellyfish on the beach?",
+            "7": "Is the tree on the beach?",
+            "8": "Is the beach otherworldly?"
+        }
+    },
+    "sample_023": {
+        "prompt": "A raccoon and a rooster are standing in a rural yard.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "attribute - type",
+            "5": "attribute - state",
+            "6": "attribute - state",
+            "7": "relation - spatial",
+            "8": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                3
+            ],
+            "5": [
+                1
+            ],
+            "6": [
+                2
+            ],
+            "7": [
+                1,
+                3
+            ],
+            "8": [
+                2,
+                3
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a raccoon?",
+            "2": "Is there a rooster?",
+            "3": "Is there a yard?",
+            "4": "Is the yard rural?",
+            "5": "Is the raccoon standing?",
+            "6": "Is the rooster standing?",
+            "7": "Is the raccoon in the yard?",
+            "8": "Is the rooster in the yard?"
+        }
+    },
+    "sample_024": {
+        "prompt": "A dolphin is swimming in the ocean, and a penguin is swimming in the ocean.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "action -",
+            "5": "action -",
+            "6": "relation - togetherness"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                1,
+                3
+            ],
+            "5": [
+                2,
+                3
+            ],
+            "6": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a dolphin?",
+            "2": "Is there a penguin?",
+            "3": "Is there an ocean?",
+            "4": "Is the dolphin swimming in the ocean?",
+            "5": "Is the penguin swimming in the ocean?",
+            "6": "Are the dolphin and the penguin swimming together?"
+        }
+    },
+    "sample_025": {
+        "prompt": "A panda and a cat are frolicing in a sunlit bamboo forest, surrounded by vibrant blossoms and fluttering butterflies.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "entity - whole",
+            "5": "entity - whole",
+            "6": "attribute - state",
+            "7": "attribute - state",
+            "8": "attribute - state",
+            "9": "attribute - state",
+            "10": "attribute - state",
+            "11": "action -",
+            "12": "relation - spatial",
+            "13": "relation - spatial",
+            "14": "relation - spatial",
+            "15": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                0
+            ],
+            "5": [
+                0
+            ],
+            "6": [
+                1
+            ],
+            "7": [
+                2
+            ],
+            "8": [
+                3
+            ],
+            "9": [
+                4
+            ],
+            "10": [
+                5
+            ],
+            "11": [
+                1,
+                2,
+                3
+            ],
+            "12": [
+                1,
+                4
+            ],
+            "13": [
+                1,
+                5
+            ],
+            "14": [
+                2,
+                4
+            ],
+            "15": [
+                2,
+                5
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a panda?",
+            "2": "Is there a cat?",
+            "3": "Is there a bamboo forest?",
+            "4": "Are there blossoms?",
+            "5": "Are there butterflies?",
+            "6": "Is the panda playful?",
+            "7": "Is the cat curious?",
+            "8": "Is the bamboo forest sunlit?",
+            "9": "Are the blossoms vibrant?",
+            "10": "Are the butterflies fluttering?",
+            "11": "Are the panda and the cat frolicking in the bamboo forest?",
+            "12": "Is the panda surrounded by blossoms?",
+            "13": "Is the panda surrounded by butterflies?",
+            "14": "Is the cat surrounded by blossoms?",
+            "15": "Is the cat surrounded by butterflies?"
+        }
+    },
+    "sample_026": {
+        "prompt": "A dog is chasing a butterfly in the garden.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "action -",
+            "5": "relation - spatial",
+            "6": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                1,
+                2
+            ],
+            "5": [
+                1,
+                3
+            ],
+            "6": [
+                2,
+                3
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a dog?",
+            "2": "Is there a butterfly?",
+            "3": "Is there a garden?",
+            "4": "Is the dog chasing the butterfly?",
+            "5": "Is the dog in the garden?",
+            "6": "Is the butterfly in the garden?"
+        }
+    },
+    "sample_027": {
+        "prompt": "A horse is standing near the seashore, looking at a crab",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "entity - whole",
+            "5": "attribute - state",
+            "6": "relation - spatial",
+            "7": "action -",
+            "8": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                0
+            ],
+            "5": [
+                1
+            ],
+            "6": [
+                1,
+                2
+            ],
+            "7": [
+                1,
+                3
+            ],
+            "8": [
+                3,
+                4
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a horse?",
+            "2": "Is there a seashore?",
+            "3": "Is there a crab?",
+            "4": "Is there a beach?",
+            "5": "Is the horse standing?",
+            "6": "Is the horse near the seashore?",
+            "7": "Is the horse looking at the crab?",
+            "8": "Is the crab on the beach?"
+        }
+    },
+    "sample_028": {
+        "prompt": "A dog is looking up at an eagle",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "action -",
+            "5": "action -",
+            "6": "relation - spatial",
+            "7": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                1,
+                2
+            ],
+            "5": [
+                2,
+                3
+            ],
+            "6": [
+                1,
+                2
+            ],
+            "7": [
+                2,
+                3
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a dog?",
+            "2": "Is there an eagle?",
+            "3": "Is there a sky?",
+            "4": "Is the dog looking up at the eagle?",
+            "5": "Is the eagle soaring in the sky?",
+            "6": "Is the dog below the eagle?",
+            "7": "Is the eagle in the sky?"
+        }
+    },
+    "sample_029": {
+        "prompt": "A heron is standing by a small pond in a forest, and a deer is drinking water at the edge of the pond.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "entity - whole",
+            "5": "attribute - size",
+            "6": "relation - spatial",
+            "7": "relation - spatial",
+            "8": "relation - spatial",
+            "9": "relation - spatial",
+            "10": "action -",
+            "11": "attribute - state"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                0
+            ],
+            "5": [
+                2
+            ],
+            "6": [
+                1,
+                2
+            ],
+            "7": [
+                1,
+                3
+            ],
+            "8": [
+                2,
+                3
+            ],
+            "9": [
+                2,
+                4
+            ],
+            "10": [
+                4
+            ],
+            "11": [
+                1
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a heron?",
+            "2": "Is there a pond?",
+            "3": "Is there a forest?",
+            "4": "Is there a deer?",
+            "5": "Is the pond small?",
+            "6": "Is the heron next to the pond?",
+            "7": "Is the heron in the forest?",
+            "8": "Is the pond in the forest?",
+            "9": "Is the deer at the edge of the pond?",
+            "10": "Is the deer drinking water?",
+            "11": "Is the heron standing?"
+        }
+    },
+    "sample_030": {
+        "prompt": "A French bulldog is standing on an ice-floe under a sunny sky, and a penguin is standing on an ice-floe under a sunny sky.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "entity - whole",
+            "5": "attribute - type",
+            "6": "attribute - state",
+            "7": "action -",
+            "8": "action -",
+            "9": "relation - spatial",
+            "10": "relation - spatial",
+            "11": "relation - spatial",
+            "12": "relation - spatial",
+            "13": "relation - spatial",
+            "14": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                0
+            ],
+            "5": [
+                1
+            ],
+            "6": [
+                4
+            ],
+            "7": [
+                1
+            ],
+            "8": [
+                2
+            ],
+            "9": [
+                1,
+                2
+            ],
+            "10": [
+                1,
+                3
+            ],
+            "11": [
+                2,
+                3
+            ],
+            "12": [
+                1,
+                4
+            ],
+            "13": [
+                2,
+                4
+            ],
+            "14": [
+                3,
+                4
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a French bulldog?",
+            "2": "Is there a penguin?",
+            "3": "Is there an ice - floe?",
+            "4": "Is there a sky?",
+            "5": "Is the bulldog French?",
+            "6": "Is the sky sunny?",
+            "7": "Is the French bulldog standing?",
+            "8": "Is the penguin standing?",
+            "9": "Are the French bulldog and the penguin standing side by side?",
+            "10": "Is the French bulldog on the ice - floe?",
+            "11": "Is the penguin on the ice - floe?",
+            "12": "Is the French bulldog under the sky?",
+            "13": "Is the penguin under the sky?",
+            "14": "Is the ice - floe under the sky?"
+        }
+    },
+    "sample_031": {
+        "prompt": "An eagle is soaring in the sky, and a shark is swimming in the water.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "action -",
+            "5": "action -",
+            "6": "relation - spatial",
+            "7": "relation - spatial",
+            "8": "relation - spatial",
+            "9": "entity - part"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                1,
+                2
+            ],
+            "5": [
+                3,
+                9
+            ],
+            "6": [
+                1,
+                3
+            ],
+            "7": [
+                3,
+                1
+            ],
+            "8": [
+                3,
+                2
+            ],
+            "9": [
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there an eagle?",
+            "2": "Is there a sea?",
+            "3": "Is there a shark?",
+            "4": "Is the eagle soaring above the sea?",
+            "5": "Is the shark swimming in the water?",
+            "6": "Is the eagle above the shark?",
+            "7": "Is the shark below the eagle?",
+            "8": "Is the shark in the sea?",
+            "9": "Is there water in the sea?"
+        }
+    },
+    "sample_032": {
+        "prompt": "A group of sharks are floating gracefully in a fantasy underwater scene, and a complete elephant is floating gracefully in a fantasy underwater scene.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "global -",
+            "4": "action -",
+            "5": "relation - spatial",
+            "6": "attribute - state"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                1,
+                2
+            ],
+            "5": [
+                1,
+                2
+            ],
+            "6": [
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a shark?",
+            "2": "Is there an elephant?",
+            "3": "Is this a fantasy underwater scene?",
+            "4": "Are the shark and the elephant co - existing?",
+            "5": "Is the elephant among the shark?",
+            "6": "Is the elephant floating gracefully?"
+        }
+    },
+    "sample_033": {
+        "prompt": "A frog is floating on a small raft over the ocean, and a shark is swimming in the ocean",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "entity - whole",
+            "5": "attribute - state",
+            "6": "action -",
+            "7": "relation - spatial",
+            "8": "relation - spatial",
+            "9": "relation - spatial",
+            "10": "action -",
+            "11": "relation - spatial",
+            "12": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                0
+            ],
+            "5": [
+                2
+            ],
+            "6": [
+                1,
+                2
+            ],
+            "7": [
+                1,
+                2
+            ],
+            "8": [
+                1,
+                3
+            ],
+            "9": [
+                2,
+                3
+            ],
+            "10": [
+                4
+            ],
+            "11": [
+                1,
+                4
+            ],
+            "12": [
+                2,
+                4
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a frog?",
+            "2": "Is there a raft?",
+            "3": "Is there an ocean?",
+            "4": "Is there a shark?",
+            "5": "Is the raft small?",
+            "6": "Is the frog floating on the raft?",
+            "7": "Is the frog on the raft?",
+            "8": "Is the frog on the ocean (via the raft)?",
+            "9": "Is the raft in the ocean?",
+            "10": "Is the shark swimming?",
+            "11": "Is the shark nearby the frog?",
+            "12": "Is the shark nearby the raft?"
+        }
+    },
+    "sample_034": {
+        "prompt": "A piggy bank is sitting on a polished table, and a Rolls-Royce hood ornament is sitting on a polished table.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "entity - part",
+            "5": "relation - spatial",
+            "6": "relation - spatial",
+            "7": "relation - spatial",
+            "8": "attribute - state",
+            "9": "attribute - state"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                2
+            ],
+            "5": [
+                1,
+                2
+            ],
+            "6": [
+                1,
+                3
+            ],
+            "7": [
+                2,
+                3
+            ],
+            "8": [
+                3
+            ],
+            "9": [
+                1
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a piggy bank?",
+            "2": "Is there a hood ornament?",
+            "3": "Is there a table?",
+            "4": "Is the hood ornament from a Rolls - Royce?",
+            "5": "Is the piggy bank beside the hood ornament?",
+            "6": "Is the piggy bank on the table?",
+            "7": "Is the hood ornament on the table?",
+            "8": "Is the table polished?",
+            "9": "Is the piggy bank sitting?"
+        }
+    },
+    "sample_035": {
+        "prompt": "A cap is lying under a tree in a forest.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - state",
+            "4": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a cap?",
+            "2": "Is there a forest?",
+            "3": "Is the cap lying?",
+            "4": "Is the cap under the tree?"
+        }
+    },
+    "sample_036": {
+        "prompt": "A basketball shoe is sitting in front of a vintage television.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - type",
+            "4": "attribute - state",
+            "5": "relation - spatial",
+            "6": "attribute - state"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                2
+            ],
+            "5": [
+                1,
+                2
+            ],
+            "6": [
+                1
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a shoe?",
+            "2": "Is there a television?",
+            "3": "Is the shoe a basketball shoe?",
+            "4": "Is the television vintage?",
+            "5": "Is the shoe in front of the television?",
+            "6": "Is the shoe sitting?"
+        }
+    },
+    "sample_037": {
+        "prompt": "An airplane is flying over a field with a cactus.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "action -",
+            "5": "relation - spatial",
+            "6": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                1
+            ],
+            "5": [
+                1,
+                2
+            ],
+            "6": [
+                2,
+                3
+            ]
+        },
+        "qid2question": {
+            "1": "Is there an airplane?",
+            "2": "Is there a field?",
+            "3": "Is there a cactus?",
+            "4": "Is the airplane flying?",
+            "5": "Is the airplane flying over the field?",
+            "6": "Is the cactus in the field?"
+        }
+    },
+    "sample_038": {
+        "prompt": "A wooden house is in front of a mug.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - material",
+            "4": "relation - spatial",
+            "5": "attribute - state"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                2
+            ],
+            "4": [
+                1,
+                2
+            ],
+            "5": [
+                1
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a mug?",
+            "2": "Is there a house?",
+            "3": "Is the house made of wood?",
+            "4": "Is the mug in front of the house?",
+            "5": "Is the mug placed?"
+        }
+    },
+    "sample_039": {
+        "prompt": "A rubber duck is floating over a small pond, near a tree-like character.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "attribute - material",
+            "5": "attribute - state",
+            "6": "action -",
+            "7": "relation - spatial",
+            "8": "relation - spatial",
+            "9": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                1
+            ],
+            "5": [
+                3
+            ],
+            "6": [
+                1
+            ],
+            "7": [
+                1,
+                2
+            ],
+            "8": [
+                1,
+                3
+            ],
+            "9": [
+                2,
+                3
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a rubber duck?",
+            "2": "Is there a tree - like character?",
+            "3": "Is there a pond?",
+            "4": "Is the duck made of rubber?",
+            "5": "Is the pond small?",
+            "6": "Is the rubber duck floating?",
+            "7": "Is the rubber duck near the tree - like character?",
+            "8": "Is the rubber duck by the pond?",
+            "9": "Is the tree - like character by the pond?"
+        }
+    },
+    "sample_040": {
+        "prompt": "A vintage van is parked on an open ground, and a robot is rolling next to a vintage van, on an open ground.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "attribute - era",
+            "5": "attribute - state",
+            "6": "relation - spatial",
+            "7": "relation - spatial",
+            "8": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                1
+            ],
+            "5": [
+                1
+            ],
+            "6": [
+                1,
+                2
+            ],
+            "7": [
+                1,
+                3
+            ],
+            "8": [
+                2,
+                3
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a van?",
+            "2": "Is there a robot?",
+            "3": "Is there an open ground?",
+            "4": "Is the van vintage?",
+            "5": "Is the van parked?",
+            "6": "Is the van next to the robot?",
+            "7": "Is the van on the open ground?",
+            "8": "Is the robot on the open ground?"
+        }
+    },
+    "sample_041": {
+        "prompt": "A woman is wearing a dress.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - type",
+            "4": "attribute - state"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1,
+                2
+            ],
+            "4": [
+                1
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a woman?",
+            "2": "Is there a dress?",
+            "3": "Is the woman wearing the dress?",
+            "4": "Is the woman have full body?"
+        }
+    },
+    "sample_042": {
+        "prompt": "An anime Spider-Man is leaping across skyscrapers, holding the roll of film, in the bustling city.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "entity - whole",
+            "5": "attribute - type",
+            "6": "action -",
+            "7": "relation - spatial",
+            "8": "attribute - state"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                0
+            ],
+            "5": [
+                1
+            ],
+            "6": [
+                1,
+                2
+            ],
+            "7": [
+                1,
+                3
+            ],
+            "8": [
+                4
+            ]
+        },
+        "qid2question": {
+            "1": "Is there Spider - Man?",
+            "2": "Are there skyscrapers?",
+            "3": "Is there a roll of film?",
+            "4": "Is there a city?",
+            "5": "Is the Spider - Man an anime version?",
+            "6": "Is the Spider - Man leaping across the skyscrapers?",
+            "7": "Is the Spider - Man clutching the roll of film?",
+            "8": "Is the city bustling?"
+        }
+    },
+    "sample_043": {
+        "prompt": "A sneaker is lying on the floor, and a beer can is lying on the floor.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "action -",
+            "5": "relation - spatial",
+            "6": "relation - spatial",
+            "7": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                1
+            ],
+            "5": [
+                1,
+                2
+            ],
+            "6": [
+                1,
+                3
+            ],
+            "7": [
+                2,
+                3
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a sneaker?",
+            "2": "Is there a beer can?",
+            "3": "Is there a floor?",
+            "4": "Is the sneaker lying?",
+            "5": "Is the sneaker beside the beer can?",
+            "6": "Is the sneaker on the floor?",
+            "7": "Is the beer can on the floor?"
+        }
+    },
+    "sample_044": {
+        "prompt": "A stop sign is standing, and a tree-like character is standing.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - shape",
+            "4": "attribute - state",
+            "5": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                1
+            ],
+            "5": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a character?",
+            "2": "Is there a stop sign?",
+            "3": "Is the character tree - like?",
+            "4": "Is the character standing?",
+            "5": "Is the character beside the stop sign?"
+        }
+    },
+    "sample_045": {
+        "prompt": "An airplane is parking on an open ground, and a robot is standing on an open ground.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - state",
+            "4": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a robot?",
+            "2": "Is there an airplane?",
+            "3": "Is the robot standing?",
+            "4": "Is the robot beside the airplane?"
+        }
+    },
+    "sample_046": {
+        "prompt": "A hot air balloon is floating in the sky, and a sneaker is lying on the ground.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "entity - whole",
+            "5": "action -",
+            "6": "relation - spatial",
+            "7": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                0
+            ],
+            "5": [
+                1,
+                3
+            ],
+            "6": [
+                1,
+                2
+            ],
+            "7": [
+                2,
+                4
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a hot air balloon?",
+            "2": "Is there a sneaker?",
+            "3": "Is there a sky?",
+            "4": "Is there a ground?",
+            "5": "Is the hot air balloon floating in the sky?",
+            "6": "Is the hot air balloon above the sneaker?",
+            "7": "Is the sneaker on the ground?"
+        }
+    },
+    "sample_047": {
+        "prompt": "A donut is on the table, and a Rolls-Royce hood ornament is on the table.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a donut?",
+            "2": "Is there a Rolls - Royce hood ornament?",
+            "3": "Is the donut beside the Rolls - Royce hood ornament?"
+        }
+    },
+    "sample_048": {
+        "prompt": "A roll of film lies beside a teddy bear.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "relation - spatial",
+            "4": "attribute - state"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1,
+                2
+            ],
+            "4": [
+                1
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a roll of film?",
+            "2": "Is there a teddy bear?",
+            "3": "Is the roll of film beside the teddy bear?",
+            "4": "Is the roll of film lying?"
+        }
+    },
+    "sample_049": {
+        "prompt": "A hot air balloon hovers above a flamingo float on the water.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "action -",
+            "5": "relation - spatial",
+            "6": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                1
+            ],
+            "5": [
+                1,
+                2
+            ],
+            "6": [
+                2,
+                3
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a hot air balloon?",
+            "2": "Is there a flamingo float?",
+            "3": "Is there water?",
+            "4": "Is the hot air balloon hovering?",
+            "5": "Is the hot air balloon above the flamingo float?",
+            "6": "Is the flamingo float on the water?"
+        }
+    },
+    "sample_050": {
+        "prompt": "An anime space ranger is riding a bicycle in space.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "attribute - style",
+            "5": "attribute - type",
+            "6": "action -",
+            "7": "relation - spatial",
+            "8": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                1
+            ],
+            "5": [
+                1
+            ],
+            "6": [
+                1,
+                2
+            ],
+            "7": [
+                1,
+                3
+            ],
+            "8": [
+                2,
+                3
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a space ranger?",
+            "2": "Is there a bicycle?",
+            "3": "Is there space?",
+            "4": "Is the space ranger in anime style?",
+            "5": "Is the space ranger a space - themed ranger?",
+            "6": "Is the space ranger riding the bicycle?",
+            "7": "Is the space ranger in space?",
+            "8": "Is the bicycle in space?"
+        }
+    },
+    "sample_051": {
+        "prompt": "An Avatar is standing beside a yellow taxi.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - color",
+            "4": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                2
+            ],
+            "4": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there an Avatar?",
+            "2": "Is there a taxi?",
+            "3": "Is the taxi yellow?",
+            "4": "Is the Avatar beside the taxi?"
+        }
+    },
+    "sample_052": {
+        "prompt": "An anime girl is exploring an anime park.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - type",
+            "4": "attribute - type",
+            "5": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                2
+            ],
+            "5": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there an anime girl?",
+            "2": "Is there an anime park?",
+            "3": "Is the girl an anime character?",
+            "4": "Is the park an anime park?",
+            "5": "Is the anime girl exploring the anime park?"
+        }
+    },
+    "sample_053": {
+        "prompt": "An anime samurai is meditating in an anime purple forest.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - type",
+            "4": "attribute - type",
+            "5": "attribute - color",
+            "6": "action -",
+            "7": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                2
+            ],
+            "5": [
+                2
+            ],
+            "6": [
+                1
+            ],
+            "7": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there an anime samurai?",
+            "2": "Is there an anime purple forest?",
+            "3": "Is the samurai an anime character?",
+            "4": "Is the forest an anime forest?",
+            "5": "Is the forest purple?",
+            "6": "Is the anime samurai meditating?",
+            "7": "Is the anime samurai in the anime purple forest?"
+        }
+    },
+    "sample_054": {
+        "prompt": "A teddy bear is sitting on the ground, with a mug of tea, in a barn.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "entity - whole",
+            "4": "attribute - type",
+            "5": "action -",
+            "6": "relation - spatial",
+            "7": "relation - spatial",
+            "8": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                0
+            ],
+            "4": [
+                1
+            ],
+            "5": [
+                1
+            ],
+            "6": [
+                1,
+                2
+            ],
+            "7": [
+                1,
+                3
+            ],
+            "8": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a teddy bear?",
+            "2": "Is there a barn?",
+            "3": "Is there a mug of tea?",
+            "4": "Is the bear a teddy bear?",
+            "5": "Is the teddy bear sitting?",
+            "6": "Is the teddy bear on the ground?",
+            "7": "Is the teddy bear with a mug of tea?",
+            "8": "Is the teddy bear in front of the barn?"
+        }
+    },
+    "sample_055": {
+        "prompt": "A robot is exploring a volcano.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "action -",
+            "4": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a robot?",
+            "2": "Is there a volcano?",
+            "3": "Is the robot exploring?",
+            "4": "Is the robot in the volcano?"
+        }
+    },
+    "sample_056": {
+        "prompt": "A dolphin is swimming near a waterfall.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "action -",
+            "4": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a dolphin?",
+            "2": "Is there a waterfall?",
+            "3": "Is the dolphin swimming?",
+            "4": "Is the dolphin near the waterfall?"
+        }
+    },
+    "sample_057": {
+        "prompt": "A polar bear is walking across a white desert.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - type",
+            "4": "attribute - color",
+            "5": "action -",
+            "6": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                2
+            ],
+            "5": [
+                1
+            ],
+            "6": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there a polar bear?",
+            "2": "Is there a white desert?",
+            "3": "Is the bear a polar bear?",
+            "4": "Is the desert white?",
+            "5": "Is the polar bear walking?",
+            "6": "Is the polar bear across the white desert?"
+        }
+    },
+    "sample_058": {
+        "prompt": "An anime girl is floating in the outer space.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - type",
+            "4": "attribute - type",
+            "5": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                2
+            ],
+            "5": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there an anime girl?",
+            "2": "Is there an outer space?",
+            "3": "Is the girl an anime character?",
+            "4": "Is the scene an outer space?",
+            "5": "Is the anime girl wandering in the outer space?"
+        }
+    },
+    "sample_059": {
+        "prompt": "An anime man is fishing on an anime island, sitting on the wood bridge.",
+        "qid2tuple": {
+            "1": "entity - whole",
+            "2": "entity - whole",
+            "3": "attribute - type",
+            "4": "attribute - type",
+            "5": "action -",
+            "6": "relation - spatial"
+        },
+        "qid2dependency": {
+            "1": [
+                0
+            ],
+            "2": [
+                0
+            ],
+            "3": [
+                1
+            ],
+            "4": [
+                2
+            ],
+            "5": [
+                1
+            ],
+            "6": [
+                1,
+                2
+            ]
+        },
+        "qid2question": {
+            "1": "Is there an anime man?",
+            "2": "Is there an anime island?",
+            "3": "Is the man an anime character?",
+            "4": "Is the island an anime island?",
+            "5": "Is the anime man fishing?",
+            "6": "Is the anime man on the anime island?"
+        }
+    }
+}

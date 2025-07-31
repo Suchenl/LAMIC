@@ -1,0 +1,1595 @@
+{
+    "sample_000": {
+        "prompt": "A boy is playing with a Spider-Man.",
+        "CEI": "playing",
+        "ref_img_1": {
+            "image_path": "./dataset/images/human/00_boy.jpg",
+            "SAD": {
+                "id": "a boy",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/71_anime Spider-Man.jpg",
+            "SAD": {
+                "id": "a Spider-Man",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.5,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_001": {
+        "prompt": "An old man meets a pixelated warrior.",
+        "CEI": "meets each other",
+        "ref_img_1": {
+            "image_path": "./dataset/images/human/16_old man.jpg",
+            "SAD": {
+                "id": "an old man",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/67_pixelated warrior.jpg",
+            "SAD": {
+                "id": "a pixelated warrior",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.5,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_002": {
+        "prompt": "A man is using a hair dryer.",
+        "CEI": "A man is using a hair dryer.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/human/05_man.jpg",
+            "SAD": {
+                "id": "a man",
+                "desc": "keep appearance"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/26_hair dryer.jpg",
+            "SAD": {
+                "id": "a hair dryer",
+                "desc": "keep appearance"
+            }
+        }
+    },
+    "sample_003": {
+        "prompt": "A boy is discovering a ring in the forest.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/human/14_boy.jpg",
+            "SAD": {
+                "id": "a boy",
+                "desc": "keep appearance, curious, is discovering a ring, in the forest"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/16_ring.jpg",
+            "SAD": {
+                "id": "a ring",
+                "desc": "keep appearance, in the forest"
+            },
+            "bbox": [
+                0.5,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_004": {
+        "prompt": "A man is standing beside a steam locomotive.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/human/08_man.jpg",
+            "SAD": {
+                "id": "a man",
+                "desc": "keep appearance, stands beside a steam locomotive"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/19_steam locomotive.jpg",
+            "SAD": {
+                "id": "a steam locomotive",
+                "desc": "keep appearance"
+            }
+        }
+    },
+    "sample_005": {
+        "prompt": "A boy is standing next to a cactus.",
+        "CEI": "A boy is standing next to a cactus.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/human/14_boy.jpg",
+            "SAD": {
+                "id": "a boy",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/53_cactus.jpg",
+            "SAD": {
+                "id": "a cactus",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.5,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_006": {
+        "prompt": "A man is standing beside a man, having a conversation.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/human/08_man.jpg",
+            "SAD": {
+                "id": "a man",
+                "desc": "keep appearance, standing beside a man, having a conversation"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.55,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/human/11_man.jpg",
+            "SAD": {
+                "id": "a man",
+                "desc": "keep appearance, standing beside a man, having a conversation"
+            },
+            "bbox": [
+                0.45,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_007": {
+        "prompt": "A woman is playing with a dog.",
+        "CEI": "playing with each other",
+        "ref_img_1": {
+            "image_path": "./dataset/images/human/15_woman.jpg",
+            "SAD": {
+                "id": "a woman",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/animal/12_dog.jpg",
+            "SAD": {
+                "id": "a dog",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.5,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_008": {
+        "prompt": "A girl is playing with a corgi.",
+        "CEI": "playing with each other",
+        "ref_img_1": {
+            "image_path": "./dataset/images/human/19_girl.jpg",
+            "SAD": {
+                "id": "a girl",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/animal/22_corgi.jpg",
+            "SAD": {
+                "id": "a corgi",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.5,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_009": {
+        "prompt": "An elephant is carrying a backpack on its back.",
+        "CEI": "An elephant is carrying a backpack on its back.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/38_elephant.jpg",
+            "SAD": {
+                "id": "an elephant",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.0,
+                0.3,
+                1.0,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/28_backpack.jpg",
+            "SAD": {
+                "id": "a backpack",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                0.5
+            ]
+        }
+    },
+    "sample_010": {
+        "prompt": "A deer is standing beside a vintage van.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/31_deer.jpg",
+            "SAD": {
+                "id": "a deer",
+                "desc": "keep appearance, standing beside a vintage van"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/21_vintage van.jpg",
+            "SAD": {
+                "id": "a vintage van",
+                "desc": "keep appearance"
+            }
+        }
+    },
+    "sample_011": {
+        "prompt": "A cotton-top tamarin is sitting under a street lamp.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/26_cotton-top tamarin.jpg",
+            "SAD": {
+                "id": "a cotton-top tamarin",
+                "desc": "keep appearance, sitting under a street lamp"
+            },
+            "bbox": [
+                0.1,
+                0.3,
+                1.0,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/15_street lamp.jpg",
+            "SAD": {
+                "id": "a street lamp",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.05,
+                0.0,
+                0.35,
+                1.0
+            ]
+        }
+    },
+    "sample_012": {
+        "prompt": "A white tiger is prowling silently in the moonlit jungle, staring at a watch.",
+        "CEI": "in the moonlit jungle, tiger stare at the watch",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/40_white tiger.jpg",
+            "SAD": {
+                "id": "a white tiger",
+                "desc": "keep appearance, prowls silently, stare at the watch, in the jungle, moon in the sky"
+            },
+            "bbox": [
+                0.5,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/12_watch.jpg",
+            "SAD": {
+                "id": "a watch",
+                "desc": "lie on the ground, bling, abandoned in the jungle, moon in the sky"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        }
+    },
+    "sample_013": {
+        "prompt": "A Corgi dog stands beside an anime samurai.",
+        "CEI": "A Corgi dog stands beside an anime samurai.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/32_Corgi dog.jpg",
+            "SAD": {
+                "id": "a Corgi dog",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/69_anime samurai.jpg",
+            "SAD": {
+                "id": "an anime samurai",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.5,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_014": {
+        "prompt": "A grasshopper is standing beside a Poke Ball.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/29_grasshopper.jpg",
+            "SAD": {
+                "id": "a grasshopper",
+                "desc": "keep appearance, standing"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/54_Poke Ball.jpg",
+            "SAD": {
+                "id": "a Poke Ball",
+                "desc": "keep appearance, keep completeness"
+            },
+            "bbox": [
+                0.5,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_015": {
+        "prompt": "A penguin is on a flamingo float.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/05_penguin.jpg",
+            "SAD": {
+                "id": "a penguin",
+                "desc": "keep appearance, on a flamingo float"
+            },
+            "bbox": [
+                0.0,
+                0.1,
+                1.0,
+                0.5
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/10_flamingo float.jpg",
+            "SAD": {
+                "id": "a flamingo float",
+                "desc": "keep appearance, in the water"
+            },
+            "bbox": [
+                0.0,
+                0.4,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_016": {
+        "prompt": "A fox is standing under a street lamp.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/10_fox.jpg",
+            "SAD": {
+                "id": "a fox",
+                "desc": "keep appearance, standing under a street lamp."
+            },
+            "bbox": [
+                0.1,
+                0.3,
+                1.0,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/15_street lamp.jpg",
+            "SAD": {
+                "id": "a street lamp",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.05,
+                0.0,
+                0.35,
+                1.0
+            ]
+        }
+    },
+    "sample_017": {
+        "prompt": "A llama is wearing a hat.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/24_llama.jpg",
+            "SAD": {
+                "id": "a llama",
+                "desc": "keep appearance, wearing a hat, full body"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/clothes/upwearing/03_hat.jpg",
+            "SAD": {
+                "id": "a hat",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                0.3
+            ]
+        }
+    },
+    "sample_018": {
+        "prompt": "A toucan is sitting in front of a vintage television.",
+        "CEI": "A toucan is sitting in front of a vintage television.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/37_toucan.jpg",
+            "SAD": {
+                "id": "a toucan",
+                "desc": "keep appearance"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/49_vintage television.jpg",
+            "SAD": {
+                "id": "a vintage television",
+                "desc": "keep appearance"
+            }
+        }
+    },
+    "sample_019": {
+        "prompt": "A panda is using a hair dryer.",
+        "CEI": "A panda is using a hair dryer.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/33_panda.jpg",
+            "SAD": {
+                "id": "a panda",
+                "desc": "keep appearance"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/26_hair dryer.jpg",
+            "SAD": {
+                "id": "a hair dryer",
+                "desc": "keep appearance"
+            }
+        }
+    },
+    "sample_020": {
+        "prompt": "A lizard is sitting on a motorcycle.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/36_lizard.jpg",
+            "SAD": {
+                "id": "a lizard",
+                "desc": "keep appearance, sitting on a motorcycle"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                0.5
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/00_motorcycle.jpg",
+            "SAD": {
+                "id": "a motorcycle",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.0,
+                0.3,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_021": {
+        "prompt": "A cat is sitting beside a basketball shoe",
+        "CEI": "A cat is sitting beside a shoe",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/34_cat.jpg",
+            "SAD": {
+                "id": "a cat",
+                "desc": "keep appearance"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/07_basketball shoe.jpg",
+            "SAD": {
+                "id": "a basketball shoe",
+                "desc": "keep appearance"
+            }
+        }
+    },
+    "sample_022": {
+        "prompt": "A jellyfish is floating near a tree on an otherworldly beach.",
+        "CEI": "A jellyfish floating near a tree on an otherworldly beach.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/16_jellyfish.jpg",
+            "SAD": {
+                "id": "a jellyfish",
+                "desc": "keep appearance"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/08_tree.jpg",
+            "SAD": {
+                "id": "a tree",
+                "desc": "keep appearance"
+            }
+        }
+    },
+    "sample_023": {
+        "prompt": "A raccoon and a rooster are standing in a rural yard.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/08_raccoon.jpg",
+            "SAD": {
+                "id": "a raccoon",
+                "desc": "keep appearance, standing in a rural yard."
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/animal/09_rooster.jpg",
+            "SAD": {
+                "id": "a rooster",
+                "desc": "keep appearance, standing in a rural yard."
+            },
+            "bbox": [
+                0.5,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_024": {
+        "prompt": "A dolphin is swimming in the ocean, and a penguin is swimming in the ocean.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/39_dolphin.jpg",
+            "SAD": {
+                "id": "a dolphin",
+                "desc": "keep appearance, swimming in the ocean"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                0.5
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/animal/05_penguin.jpg",
+            "SAD": {
+                "id": "a penguin",
+                "desc": "keep appearance, swimming in the ocean"
+            },
+            "bbox": [
+                0.0,
+                0.5,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_025": {
+        "prompt": "A panda and a cat are frolicing in a sunlit bamboo forest, surrounded by vibrant blossoms and fluttering butterflies.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/33_panda.jpg",
+            "SAD": {
+                "id": "a panda",
+                "desc": "keep appearance, playful, frolic in a sunlit bamboo forest, surrounded by vibrant blossoms and fluttering butterflies."
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.6,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/animal/34_cat.jpg",
+            "SAD": {
+                "id": "a cat",
+                "desc": "keep appearance, curious, frolic in a sunlit bamboo forest, surrounded by vibrant blossoms and fluttering butterflies."
+            },
+            "bbox": [
+                0.6,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_026": {
+        "prompt": "A dog is chasing a butterfly in the garden.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/15_butterfly.jpg",
+            "SAD": {
+                "id": "a butterfly",
+                "desc": "keep appearance, flying in the garden"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                0.5
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/animal/07_dog.jpg",
+            "SAD": {
+                "id": "a dog",
+                "desc": "keep appearance, chasing a butterfly in the garden"
+            },
+            "bbox": [
+                0.0,
+                0.2,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_027": {
+        "prompt": "A horse is standing near the seashore, looking at a crab",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/03_horse.jpg",
+            "SAD": {
+                "id": "a horse",
+                "desc": "keep appearance, standing near the seashore, looking at a crab"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/animal/04_crab.jpg",
+            "SAD": {
+                "id": "a crab",
+                "desc": "keep appearance, on the beach"
+            },
+            "bbox": [
+                0.5,
+                0.5,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_028": {
+        "prompt": "A dog is looking up at an eagle",
+        "CEI": "the dog is looking up at the eagle",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/07_dog.jpg",
+            "SAD": {
+                "id": "a dog",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.0,
+                0.4,
+                1.0,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/animal/14_eagle.jpg",
+            "SAD": {
+                "id": "an eagle",
+                "desc": "keep appearance, soaring in the sky."
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                0.4
+            ]
+        }
+    },
+    "sample_029": {
+        "prompt": "A heron is standing by a small pond in a forest, and a deer is drinking water at the edge of the pond.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/11_heron.jpg",
+            "SAD": {
+                "id": "a heron",
+                "desc": "keep appearance, standing by a small pond in a forest"
+            },
+            "bbox": [
+                0.6,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/animal/31_deer.jpg",
+            "SAD": {
+                "id": "a deer",
+                "desc": "keep appearance, drinking water at the edge of the pond"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.6,
+                1.0
+            ]
+        }
+    },
+    "sample_030": {
+        "prompt": "A French bulldog is standing on an ice-floe under a sunny sky, and a penguin is standing on an ice-floe under a sunny sky.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/43_French bulldog.jpg",
+            "SAD": {
+                "id": "a French bulldog",
+                "desc": "keep appearance, standing on an ice-floe under a sunny sky."
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/animal/05_penguin.jpg",
+            "SAD": {
+                "id": "a penguin",
+                "desc": "keep appearance, standing on an ice-floe under a sunny sky."
+            },
+            "bbox": [
+                0.5,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_031": {
+        "prompt": "An eagle is soaring in the sky, and a shark is swimming in the water.",
+        "CEI": "Sea and Sky",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/14_eagle.jpg",
+            "SAD": {
+                "id": "an eagle",
+                "desc": "keep appearance, soaring in the sky"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                0.4
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/animal/06_shark.jpg",
+            "SAD": {
+                "id": "a shark",
+                "desc": "keep appearance, swimming in the water"
+            },
+            "bbox": [
+                0.0,
+                0.5,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_032": {
+        "prompt": "A group of sharks are floating gracefully in a fantasy underwater scene, and a complete elephant is floating gracefully in a fantasy underwater scene.",
+        "CEI": "a fantasy underwater scene",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/06_shark.jpg",
+            "SAD": {
+                "id": "a group of sharks",
+                "desc": "keep appearance, in a fantasy underwater scene"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/animal/38_elephant.jpg",
+            "SAD": {
+                "id": "a complete elephant",
+                "desc": "keep appearance, floating gracefully, in a fantasy underwater scene"
+            }
+        }
+    },
+    "sample_033": {
+        "prompt": "A frog is floating on a small raft over the ocean, and a shark is swimming in the ocean",
+        "CEI": "Sea and Sky",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/17_frog.jpg",
+            "SAD": {
+                "id": "a frog",
+                "desc": "keep appearance, keep color, floating on a small raft, over the ocean"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                0.5
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/animal/06_shark.jpg",
+            "SAD": {
+                "id": "a shark",
+                "desc": "keep appearance, swimming in the ocean"
+            },
+            "bbox": [
+                0.0,
+                0.4,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_034": {
+        "prompt": "A piggy bank is sitting on a polished table, and a Rolls-Royce hood ornament is sitting on a polished table.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/31_piggy bank.jpg",
+            "SAD": {
+                "id": "a piggy bank",
+                "desc": "keep appearance, sitting on a polished table"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/40_Rolls-Royce hood ornament.jpg",
+            "SAD": {
+                "id": "a Rolls-Royce hood ornament",
+                "desc": "keep appearance, on a polished table"
+            },
+            "bbox": [
+                0.5,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_035": {
+        "prompt": "A cap is lying under a tree in a forest.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/scene/06_forest.jpg",
+            "SAD": {
+                "id": "a forest",
+                "desc": "keep scene"
+            },
+            "de-overlap": [
+                2
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/32_cap.jpg",
+            "SAD": {
+                "id": "a cap",
+                "desc": "keep appearance, lying under a tree"
+            },
+            "bbox": [
+                0.4,
+                0.7,
+                0.8,
+                1.0
+            ]
+        }
+    },
+    "sample_036": {
+        "prompt": "A basketball shoe is sitting in front of a vintage television.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/07_basketball shoe.jpg",
+            "SAD": {
+                "id": "a basketball shoe",
+                "desc": "keep appearance, sitting in front of a vintage television"
+            },
+            "bbox": [
+                0.5,
+                0.5,
+                1.0,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/02_vintage television.jpg",
+            "SAD": {
+                "id": "a vintage television",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.65,
+                0.65
+            ]
+        }
+    },
+    "sample_037": {
+        "prompt": "An airplane is flying over a field with a cactus.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/37_airplane.jpg",
+            "SAD": {
+                "id": "an airplane",
+                "desc": "keep appearance, flying over a field with a cactus."
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                0.8
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/53_cactus.jpg",
+            "SAD": {
+                "id": "a cactus",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.0,
+                0.5,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_038": {
+        "prompt": "A wooden house is in front of a mug.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/45_wooden house.jpg",
+            "SAD": {
+                "id": "a wooden house",
+                "desc": "generate same house, keep view"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/27_mug.jpg",
+            "SAD": {
+                "id": "a mug",
+                "desc": "keep appearance, in front of a wooden house"
+            }
+        }
+    },
+    "sample_039": {
+        "prompt": "A rubber duck is floating over a small pond, near a tree-like character.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/50_rubber duck.jpg",
+            "SAD": {
+                "id": "a rubber duck",
+                "desc": "keep appearance, floating over a small pond, near a tree-like character"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.7,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/34_tree-like character.jpg",
+            "SAD": {
+                "id": "a tree-like character",
+                "desc": "keep appearance, near a small pond"
+            },
+            "bbox": [
+                0.6,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_040": {
+        "prompt": "A vintage van is parked on an open ground, and a robot is rolling next to a vintage van, on an open ground.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/21_vintage van.jpg",
+            "SAD": {
+                "id": "a vintage van",
+                "desc": "keep appearance, parked on an open ground"
+            },
+            "bbox": [
+                0.4,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/18_robot.jpg",
+            "SAD": {
+                "id": "a robot",
+                "desc": "keep appearance, rolling next to a vintage van, on an open ground"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        }
+    },
+    "sample_041": {
+        "prompt": "A woman is wearing a dress.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/clothes/wholewearing/00_dress.jpg",
+            "SAD": {
+                "id": "a dress",
+                "desc": "keep appearance, keep view"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/human/03_woman.jpg",
+            "SAD": {
+                "id": "a woman",
+                "desc": "keep appearance, full body, wearing this dress"
+            }
+        }
+    },
+    "sample_042": {
+        "prompt": "An anime Spider-Man is leaping across skyscrapers, holding the roll of film, in the bustling city.",
+        "CEI": "bustling city",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/71_anime Spider-Man.jpg",
+            "SAD": {
+                "id": "an anime Spider-Man",
+                "desc": "keep appearance, leaping across skyscrapers, holding the roll of film, in the bustling city"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/61_roll of film.jpg",
+            "SAD": {
+                "id": "a roll of film",
+                "desc": "keep appearance, in the bustling city"
+            }
+        }
+    },
+    "sample_043": {
+        "prompt": "A sneaker is lying on the floor, and a beer can is lying on the floor.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/22_sneaker.jpg",
+            "SAD": {
+                "id": "a sneaker",
+                "desc": "keep appearance, lying on the floor"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/04_beer can.jpg",
+            "SAD": {
+                "id": "a beer can",
+                "desc": "keep appearance, on the floor"
+            },
+            "bbox": [
+                0.5,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_044": {
+        "prompt": "A stop sign is standing, and a tree-like character is standing.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/51_stop sign.jpg",
+            "SAD": {
+                "id": "a stop sign",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/34_tree-like character.jpg",
+            "SAD": {
+                "id": "a tree-like character",
+                "desc": "keep appearance, standing"
+            },
+            "bbox": [
+                0.5,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_045": {
+        "prompt": "An airplane is parking on an open ground, and a robot is standing on an open ground.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/18_robot.jpg",
+            "SAD": {
+                "id": "a robot",
+                "desc": "keep appearance, standing on an open ground"
+            },
+            "bbox": [
+                0.5,
+                0.5,
+                1.0,
+                1.0
+            ],
+            "de-overlap": [
+                2
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/37_airplane.jpg",
+            "SAD": {
+                "id": "an airplane",
+                "desc": "keep appearance, parking on an open ground"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.7,
+                1.0
+            ]
+        }
+    },
+    "sample_046": {
+        "prompt": "A hot air balloon is floating in the sky, and a sneaker is lying on the ground.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/09_hot air balloon.jpg",
+            "SAD": {
+                "id": "a hot air balloon",
+                "desc": "keep appearance, floating in the sky"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                0.5
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/22_sneaker.jpg",
+            "SAD": {
+                "id": "a sneaker",
+                "desc": "keep appearance, lying on the ground"
+            },
+            "bbox": [
+                0.0,
+                0.5,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_047": {
+        "prompt": "A donut is on the table, and a Rolls-Royce hood ornament is on the table.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/40_Rolls-Royce hood ornament.jpg",
+            "SAD": {
+                "id": "a Rolls-Royce hood ornament",
+                "desc": "keep appearance, on the table"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.4,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/38_donut.jpg",
+            "SAD": {
+                "id": "a donut",
+                "desc": "keep appearance, on the table"
+            },
+            "bbox": [
+                0.4,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_048": {
+        "prompt": "A roll of film lies beside a teddy bear.",
+        "CEI": "A roll of film lies beside a teddy bear.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/61_roll of film.jpg",
+            "SAD": {
+                "id": "a roll of film",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/46_teddy bear.jpg",
+            "SAD": {
+                "id": "a teddy bear",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.5,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_049": {
+        "prompt": "A hot air balloon hovers above a flamingo float on the water.",
+        "CEI": "A hot air balloon hovers above a flamingo float on the water.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/09_hot air balloon.jpg",
+            "SAD": {
+                "id": "a hot air balloon",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                0.5
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/10_flamingo float.jpg",
+            "SAD": {
+                "id": "a flamingo float",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.0,
+                0.5,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "sample_050": {
+        "prompt": "An anime space ranger is riding a bicycle in space.",
+        "CEI": "An anime space ranger is riding a bicycle in space.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/17_bicycle.jpg",
+            "SAD": {
+                "id": "a bicycle",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.0,
+                0.5,
+                1.0,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/65_anime space ranger.jpg",
+            "SAD": {
+                "id": "an anime space ranger",
+                "desc": "keep appearance"
+            },
+            "bbox": [
+                0.3,
+                0.0,
+                0.7,
+                1.0
+            ]
+        }
+    },
+    "sample_051": {
+        "prompt": "An Avatar is standing beside a yellow taxi.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/72_Avatar.jpg",
+            "SAD": {
+                "id": "an Avatar",
+                "desc": "keep appearance, woman, standing beside a yellow taxi"
+            },
+            "bbox": [
+                0.1,
+                0.1,
+                0.5,
+                0.9
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/object/44_yellow taxi.jpg",
+            "SAD": {
+                "id": "a yellow taxi",
+                "desc": "keep appearance"
+            },
+            "de-overlap": [
+                1
+            ]
+        }
+    },
+    "sample_052": {
+        "prompt": "An anime girl is exploring an anime park.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/66_anime girl.jpg",
+            "SAD": {
+                "id": "an anime girl",
+                "desc": "keep appearance, exploring an anime park"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/scene/01_anime park.jpg",
+            "SAD": {
+                "id": "an anime park",
+                "desc": "keep scene"
+            }
+        }
+    },
+    "sample_053": {
+        "prompt": "An anime samurai is meditating in an anime purple forest.",
+        "CEI": "An anime samurai is meditating in an anime purple forest.",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/69_anime samurai.jpg",
+            "SAD": {
+                "id": "an anime samurai",
+                "desc": "keep appearance"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/scene/02_anime purple forest.jpg",
+            "SAD": {
+                "id": "an anime purple forest",
+                "desc": "keep appearance"
+            }
+        }
+    },
+    "sample_054": {
+        "prompt": "A teddy bear is sitting on the ground, with a mug of tea, in a barn.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/13_teddy bear.jpg",
+            "SAD": {
+                "id": "a teddy bear",
+                "desc": "keep appearance, with a mug of tea, sitting on the ground"
+            },
+            "bbox": [
+                0.0,
+                0.4,
+                0.5,
+                1.0
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/scene/03_barn.jpg",
+            "SAD": {
+                "id": "a barn",
+                "desc": "keep scene"
+            },
+            "de-overlap": [
+                1
+            ]
+        }
+    },
+    "sample_055": {
+        "prompt": "A robot is exploring a volcano.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/18_robot.jpg",
+            "SAD": {
+                "id": "a robot",
+                "desc": "keep appearance, exploring a volcano"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/scene/09_volcano.jpg",
+            "SAD": {
+                "id": "a volcano",
+                "desc": "keep appearance"
+            }
+        }
+    },
+    "sample_056": {
+        "prompt": "A dolphin is swimming near a waterfall.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/39_dolphin.jpg",
+            "SAD": {
+                "id": "a dolphin",
+                "desc": "keep appearance, swimming near a waterfall"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/scene/10_waterfall.jpg",
+            "SAD": {
+                "id": "a waterfall",
+                "desc": "keep scene"
+            }
+        }
+    },
+    "sample_057": {
+        "prompt": "A polar bear is walking across a white desert.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/animal/13_polar bear.jpg",
+            "SAD": {
+                "id": "a polar bear",
+                "desc": "keep appearance, walking across a white desert"
+            }
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/scene/11_white desert.jpg",
+            "SAD": {
+                "id": "a white desert",
+                "desc": "keep appearance"
+            }
+        }
+    },
+    "sample_058": {
+        "prompt": "An anime girl is floating in the outer space.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/68_anime girl.jpg",
+            "SAD": {
+                "id": "an anime girl",
+                "desc": "keep appearance, full body, floating in the outer space"
+            },
+            "bbox": [
+                0.25,
+                0.25,
+                0.75,
+                0.75
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/scene/08_outer space.jpg",
+            "SAD": {
+                "id": "an outer space",
+                "desc": "remain the scene, keep the background"
+            },
+            "de-overlap": [
+                1
+            ]
+        }
+    },
+    "sample_059": {
+        "prompt": "An anime man is fishing on an anime island, sitting on the wood bridge.",
+        "CEI": "",
+        "ref_img_1": {
+            "image_path": "./dataset/images/object/73_anime man.jpg",
+            "SAD": {
+                "id": "an anime man",
+                "desc": "keep appearance, fishing on an anime island, sitting on the wood bridge"
+            },
+            "bbox": [
+                0.2,
+                0.2,
+                0.8,
+                0.8
+            ]
+        },
+        "ref_img_2": {
+            "image_path": "./dataset/images/scene/00_anime island.jpg",
+            "SAD": {
+                "id": "an anime island",
+                "desc": "keep scene"
+            }
+        }
+    }
+}

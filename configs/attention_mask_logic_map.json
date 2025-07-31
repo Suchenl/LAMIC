@@ -1,0 +1,52 @@
+{
+    "return_type": "binary",
+    "return_map_num": 2,
+    "SAD": {
+        "SAD": "match",
+        "CEI": "always",
+        "EPrt": "always",
+        "Reg": "match",
+        "UReg": "never",
+        "Ref": "match"
+    },
+    "CEI": {
+        "SAD": "always",
+        "CEI": "always",
+        "EPrt": "always",
+        "Reg": "stage",
+        "UReg": "stage",
+        "Ref": "always"
+    },
+    "EPrt": {
+        "SAD": "always",
+        "CEI": "always",
+        "EPrt": "always",
+        "Reg": "always",
+        "UReg": "always",
+        "Ref": "always"
+    },
+    "Reg": {
+        "SAD": "match",
+        "CEI": "stage",
+        "EPrt": "always",
+        "Reg": "match to all",
+        "UReg": "stage",
+        "Ref": "match"
+    },
+    "UReg": {
+        "SAD": "never",
+        "CEI": "stage",
+        "EPrt": "always",
+        "Reg": "stage",
+        "UReg": "always",
+        "Ref": "never"
+    },
+    "Ref": {
+        "SAD": "match",
+        "CEI": "always",
+        "EPrt": "always",
+        "Reg": "match",
+        "UReg": "never",
+        "Ref": "match"
+    }
+}
