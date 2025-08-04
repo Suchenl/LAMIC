@@ -71,4 +71,9 @@ For example, "ref_img_4": {"de-overlap": [1, 2]}. This means eliminating the inf
 ## 📄 Citation
 If you find this work useful to you, please consider citing our paper and giving the repo a ⭐:
 ```bibtex
-Coming soon
+@article{chen2025lamic,
+  title={LAMIC: Layout-Aware Multi-Image Composition via Scalability of Multimodal Diffusion Transformer}, 
+  author={Yuzhuo Chen and Zehua Ma and Jianhua Wang and Kai Kang and Shunyu Yao and Weiming Zhang},
+  journal={arXiv preprint arXiv:2508.00477},
+  year={2025}
+}
