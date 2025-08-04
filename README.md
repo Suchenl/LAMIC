@@ -73,7 +73,7 @@ If you find this work useful to you, please consider citing our paper and giving
 ```bibtex
 @article{chen2025lamic,
   title={LAMIC: Layout-Aware Multi-Image Composition via Scalability of Multimodal Diffusion Transformer}, 
-  author={Yuzhuo Chen and Zehua Ma and Jianhua Wang and Kai Kang and Shunyu Yao and Weiming Zhang},
+  author={Chen, Yuzhuo and Ma, Zehua and Wang, Jianhua and Kang, Kai and Yao, Shunyu and Zhang, Weiming},
   journal={arXiv preprint arXiv:2508.00477},
   year={2025}
 }
