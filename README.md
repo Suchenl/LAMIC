@@ -59,7 +59,7 @@ For example, "ref_img_4": {"de-overlap": [1, 2]}. This means eliminating the inf
 
 ## 🚀 Updates
 - **[2025.07]** This work is now open source, and you are free to use it!
-- **[2025.07]** Technical Report in progress (Expected release: August 2025)
+- **[2025.08]** We released a technical report! See our detailed method here.
 
 
 ## Framework of LAMIC
@@ -77,6 +77,8 @@ If you find this work useful to you, please consider citing our paper and giving
 @article{chen2025lamic,
   title={LAMIC: Layout-Aware Multi-Image Composition via Scalability of Multimodal Diffusion Transformer}, 
   author={Chen, Yuzhuo and Ma, Zehua and Wang, Jianhua and Kang, Kai and Yao, Shunyu and Zhang, Weiming},
-  journal={arXiv preprint arXiv:2508.00477},
+  journal={arXiv preprint arXiv:2508.00477
+        
+        },
   year={2025}
 }
