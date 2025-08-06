@@ -1,6 +1,9 @@
 # LAMIC
 ## LAMIC: Layout-Aware Multi-Image Composition via Scalability of Multimodal Diffusion Transformer
 
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![arXiv](https://img.shields.io/badge/arXiv-2508.00477-b31b1b.svg)](https://arxiv.org/abs/2508.00477)
+
 This repo contains minimal inference code to run layout-aware multi-image composition & editing with our LAMIC based on Flux.1 Kontext-dev open-source models.
 
 ## An example of LAMIC 
