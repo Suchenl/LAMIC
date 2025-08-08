@@ -10,7 +10,7 @@ This repo contains minimal inference code to run layout-aware multi-image compos
 ## 🚀 Updates
 - **[2025.07]** This work is now open source, and you are free to use it!
 - **[2025.08.01]** We released a technical report! See our detailed method here.
-- **[2025.08.08]** LAMIC's Comfyui implementation is coming soon!.
+- **[2025.08.08]** LAMIC's Comfyui implementation is coming soon!
 
 ## An example of LAMIC 
 
