@@ -6,6 +6,12 @@
 
 This repo contains minimal inference code to run layout-aware multi-image composition & editing with our LAMIC based on Flux.1 Kontext-dev open-source models.
 
+
+## 🚀 Updates
+- **[2025.07]** This work is now open source, and you are free to use it!
+- **[2025.08.01]** We released a technical report! See our detailed method here.
+- **[2025.08.08]** LAMIC's Comfyui implementation is coming soon!.
+
 ## An example of LAMIC 
 
 Generate using the same input "example_inputs.json" with four different random number seeds. 
@@ -56,12 +62,6 @@ In addition to the second method, you can also consider adding the key of "de-ov
 
 For example, "ref_img_4": {"de-overlap": [1, 2]}. This means eliminating the influence of reference image 4 on the overlapping area with reference image 1, and eliminating the influence of reference image 4 on the overlapping area with reference image 2.
 
-
-## 🚀 Updates
-- **[2025.07]** This work is now open source, and you are free to use it!
-- **[2025.08]** We released a technical report! See our detailed method here.
-
-
 ## Framework of LAMIC
 ![framework](assets/framework.jpg)
 
@@ -78,6 +78,8 @@ If you find this work useful to you, please consider citing our paper and giving
   title={LAMIC: Layout-Aware Multi-Image Composition via Scalability of Multimodal Diffusion Transformer}, 
   author={Chen, Yuzhuo and Ma, Zehua and Wang, Jianhua and Kang, Kai and Yao, Shunyu and Zhang, Weiming},
   journal={arXiv preprint arXiv:2508.00477
+        
+        
         
         },
   year={2025}
